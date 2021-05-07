@@ -29,11 +29,12 @@ I strongly recommend using a desktop browser with this app as it will greatly re
 
 ## Updates planned:
 - [X] Update the layout so it is usable on mobile devices
-- [ ] Currently, all users share the same list of selected players, making this web-app unusable for multiple people at the same time. This will be fixed once I find out the "Spring" way of doing this (I'm guessing I'll need to implement some sort of session/cookie storage solution)
-- [ ] There needs to be a step-by-step list of instructions for how to use the app efficiently, either as a separate page or on the index.html for new users. 
-- [ ] I'd like to compare a player's goals/game for their last X games to their season's goals/game to see if they're on a hot-streak or a cold-streak
+- [X] Session storage implemented for users' selected players, ensuring multiple users can use the app properly at once
+- [ ] Show step-by-step list of instructions for how to use the app efficiently, most likely as a new page
+- [X] Reduce site load time from 2 minutess to < 5 seconds by changing how & when the public API calls are made (scheduled once per day & saved to personal DB)
 - [ ] Create and add a favicon
 - [ ] Add option to limit player list so only players on teams playing that day appear
+- [ ] Add new page that shows app architecture and explains how it works from start to finish
 
 
 #### Have any questions or suggestions for improvements? Send me an email at fedele.fernando1996@gmail.com
