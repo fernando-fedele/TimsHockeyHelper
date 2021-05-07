@@ -5,7 +5,7 @@
 	<key>Label</key>
 	<string>local.thh-data-updater</string>
 	<key>Program</key>
-	<string>/Users/fernandofedele/thh_app/thh_data_update.sh</string>
+	<string>/Users/fernandofedele/git/TimmiesHockeyHelper/TimmiesHockeyHelper/TimmiesHockeyHelper_Scripts/thh_data_update.sh</string>
 	<key>StartCalendarInterval</key>
 	<dict>
 		<key>Hour</key>
@@ -14,8 +14,8 @@
 		<integer>0</integer>
 	</dict>
 	<key>StandardOutPath</key>
-	<string>/Users/fernandofedele/thh_app/script_logs/stdout</string>
+	<string>/Users/fernandofedele/git/TimmiesHockeyHelper/TimmiesHockeyHelper/TimmiesHockeyHelper_Scripts/script_logs/stdout</string>
 	<key>StandardErrorPath</key>
-	<string>/Users/fernandofedele/thh_app/script_logs/stderr</string>
+	<string>/Users/fernandofedele/git/TimmiesHockeyHelper/TimmiesHockeyHelper/TimmiesHockeyHelper_Scripts/script_logs/stderr</string>
 </dict>
 </plist>

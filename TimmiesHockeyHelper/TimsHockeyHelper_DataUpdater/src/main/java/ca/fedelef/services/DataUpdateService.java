@@ -58,7 +58,7 @@ public class DataUpdateService {
 		/* step 6: update */
 		Date today = new Date();
 		
-		String fn = "/Users/fernandofedele/thh_app/java_log.txt";
+		String fn = "/Users/fernandofedele/git/TimmiesHockeyHelper/TimmiesHockeyHelper/TimmiesHockeyHelper_Scripts/java_log.txt";
 		FileWriter fw = new FileWriter(fn, true);
 		BufferedWriter bw = new BufferedWriter(fw);
 		bw.write(today.toString() + '\n' + "Players successfully added to db: " + pRepo.count() + '\n' + '\n' );
