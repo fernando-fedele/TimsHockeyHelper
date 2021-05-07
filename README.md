@@ -32,7 +32,7 @@ I strongly recommend using a desktop browser with this app as it will greatly re
 - [X] Session storage implemented for users' selected players, ensuring multiple users can use the app properly at once
 - [ ] Show step-by-step list of instructions for how to use the app efficiently, most likely as a new page
 - [X] Reduce site load time from 2 minutess to < 5 seconds by changing how & when the public API calls are made (scheduled once per day & saved to personal DB)
-- [ ] Create and add a favicon
+- [X] Add a favicon
 - [ ] Add option to limit player list so only players on teams playing that day appear
 - [ ] Add new page that shows app architecture and explains how it works from start to finish
 
